@@ -15,7 +15,7 @@ import { breadthSeries, priceSeries, runMachine, SECTOR_KEYS } from '../js/signa
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = (f) => JSON.parse(fs.readFileSync(path.join(ROOT, f), 'utf-8'));
-const APP_URL = process.env.APP_URL || 'https://igorbonfanti.github.io/rrg/';
+const APP_URL = process.env.APP_URL || 'https://vittoriop77.github.io/SectorAnalysys/';
 const NAMES = {
   XLK: 'Technology', XLC: 'Communication Services', XLY: 'Consumer Discretionary', XLP: 'Consumer Staples',
   XLE: 'Energy', XLF: 'Financials', XLV: 'Health Care', XLI: 'Industrials', XLB: 'Materials', XLRE: 'Real Estate', XLU: 'Utilities',
